@@ -1,0 +1,4 @@
+def file = new File('example.txt')
+file.eachLine { line ->
+    println line
+}
